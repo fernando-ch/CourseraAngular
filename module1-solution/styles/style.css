@@ -1,0 +1,15 @@
+.ok-message {
+    color: green;
+}
+
+.ok-text-box {
+    border-color: green
+}
+
+.error-message {
+    color: red;
+}
+
+.error-text-box {
+    border-color: red;
+}
