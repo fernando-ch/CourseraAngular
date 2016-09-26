@@ -11,7 +11,7 @@
     var toBuy = this;
 
     toBuy.itens = ShoppingListCheckOffService.getToBuyItens();
-    
+
     toBuy.buyItem = function(itemIndex) {
       ShoppingListCheckOffService.buyItem(itemIndex);
     };
@@ -40,6 +40,14 @@
       {
         name: 'milk',
         quantity: 10
+      },
+      {
+        name: 'soda',
+        quantity: 5
+      },
+      {
+        name: 'chips',
+        quantity: 50
       }
     ];
 
